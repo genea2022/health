@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body
+ {
+    
+    background: linear-gradient(#111,#222) ;
+  
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+    
+body::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 0, 0);
+    position: absolute;
+    z-index: -1;
+    clip-path: circle(40% at right 70%);
+    
+}
+.contaner
+{
+ width: 95%;
+ height: 95%;
+ background:rgba(255,255,255,0.1);
+ border-radius: 20px;
+ 
+}
+
+
+.info{
+    font-size: 18px;
+    line-height: 25px;
+    margin:0 100px ;
+    letter-spacing: 1px;
+    color: #fff;
+    text-decoration: none;
+ 
+    
+    
+}
+
+
+ 
+ 
+ 
+
+@media (min-width: 600px) and (max-width:950px){}
+
+
+@media (min-width:950px) and (max-width:1150px){
+    
+}
+@media(max-width:950px){
+    .content , nav{
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    body::after{
+        clip-path: circle(50% at bottom);
+        
+    }
+}
+@media only screen and (max-width: 600px){
+ 
+    .info{
+        font-size: 18px;
+        line-height: 25px;
+        margin:0 100px ;
+        letter-spacing: 1px;
+        color: #fff;
+        text-decoration: none;
+     
+        
+        
+    }
+
+   
+   
+    #covd{
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    #red ,b{
+        margin-top: 90px;
+        font-size: 20px;
+        width: auto;
+        
+    }
+    #name ,#paspr ,#birth ,#tim1{
+        margin-top: 40px;
+        font-size: 20px;
+        
+
+    }
+    
+}
+b{
+    text-transform: uppercase;
+}

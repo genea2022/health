@@ -1,0 +1,250 @@
+ body {
+    margin: 0;
+    padding: 0;
+    
+}
+ 
+a{
+    text-decoration: none;
+    color: #0a0a0a;
+}
+#covd{
+    display: inline;
+}
+
+.eng{
+    position: absolute;
+    left:87%;
+    top: 4%;
+     
+}
+  .flgeng {
+    margin-top: 20px;
+   width: 50px;
+   height: 30px; 
+   margin-bottom: -9px;
+   position: absolute;
+   left: 90%;
+   top: 1%;
+  
+    
+}
+
+#imge{
+    width: 90px;
+    height: 90px;
+    border: 4px solid rgb(24, 161, 24);
+  border-radius: 50%;
+  display: inline;
+  margin-top: 25px;
+}
+
+.ferinfo{
+    
+    width: 65%;
+    height:100px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    line-height: 0.6;
+}
+.ferinfo1{
+    
+    width: 65%;
+    height:100px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    line-height: 0.6;
+}
+#ico{
+    margin-top: 20px;
+   width: 30px;
+   height: 30px; 
+   margin-bottom: -9px;
+   
+    
+}
+#name{
+    text-transform:uppercase;
+}
+.infgren{
+    padding: 5px;
+    margin-top: 5px;
+    width: 80%;
+    height:120px;
+    border: 1px solid rgb(24, 161, 24);
+    background-color: #f5f6fa;
+    border-radius: 5%;
+    position: absolute;
+    top: 30%;
+    
+}
+.opshinfo{
+    position: absolute;
+    top: 50%;
+    
+}
+.contaner
+{
+ width: 95%;
+ height: 95%;
+ background:rgba(255,255,255,0.1);
+ border-radius: 20px;
+ 
+}
+#select{
+    padding: 10px;
+    margin-top: 10px;
+    width: 70%;
+    height: 40px;
+     border: 1px solid rgb(24, 161, 24);
+    background-color: #f5f6fa;
+    border-radius: 5%;
+     
+}
+#tex{
+    color: black;
+}
+#clos{
+    margin-top: 10px;
+    width: 50%;
+    height: 30px;
+    background-color: green;
+    display: inline;
+}
+#clos1{
+    margin-top: 10px;
+    width: 50%;
+    height: 30px;
+    background-color: green;
+    display: inline;
+}
+#clos3{
+    margin-top: 10px;
+    width: 50%;
+    height: 30px;
+    background-color: green;
+    display: inline;
+}
+
+
+@media only screen and (max-width: 600px){
+    *{
+         
+         margin: 0;
+         padding: 0;
+         
+    }
+    
+    #covd{
+        margin-left: 9px;
+        position: absolute;
+        left: 4%;
+        top: 2.5%;
+    }
+    #best{
+        position: absolute;
+        top: 5% ;
+        left: 9%;
+    }
+    
+.eng{
+        position: absolute;
+        left:67%;
+        top: 4%;
+         
+    }
+      .flgeng {
+        margin-top: 20px;
+       width: 40px;
+       height: 20px; 
+        
+       position: absolute;
+       left: 77%;
+       top: 1.5%;
+      
+        
+    }
+    #imge{
+        position: absolute;
+        left: 25px;
+        top: 10%;
+    }
+    
+    .ferinfo{
+        position: absolute;
+        left: 130px;
+        top: 13%;
+        line-height: 1.3;
+     
+    }
+     #by{
+        margin-top: 5px;
+        margin-bottom: 8px;
+     }
+    .infgren{
+        position: absolute;
+        left: 30px;
+        line-height: 1.3;
+        height: auto;
+          
+    }
+    .opshinfo{
+        position: absolute;
+        top: 48%;
+        font-size: 16px;
+        
+    }
+    #select{
+        font-size: 15px;
+        font-family: Bahnschrift SemiBold;
+    }
+    .text{
+         margin-top: 30px;
+        width: 80%;
+    }
+    #clos{
+        margin-top: 60px;
+    }
+    #clos , #clos1{
+        width: 70%;
+        font-size: 20px;
+    }
+    #clos3{
+        margin-top: 10px;
+        margin-left:36px;
+        width: 70%;
+        height: 30px;
+        background-color: rgb(83, 88, 83);
+        font-size: 20px;
+    }
+    .maseg{
+        
+        position: absolute;
+        width: 90%;
+        height: 70%;
+        background:#ecf0f1;
+        top:-75%;
+        left: 4.5%;
+        font-size: 23px;
+        border-radius: 5%;
+        border: 1px solid rgb(24, 161, 24);
+        
+    }
+    #immas{
+         margin-top: 7%;
+        font-size: 50px;
+        
+    }
+    #butimg{
+        margin-top:5%;
+        width: 90px;
+        height: 30px;
+        border-radius: 5%;
+        font-size: 20px;
+    }
+}
+
